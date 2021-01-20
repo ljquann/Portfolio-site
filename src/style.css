@@ -1,0 +1,9 @@
+h1 {
+  color: blue;
+}
+#headshot {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: 50%;
+}
