@@ -3,22 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link ttype="text/css" rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
     <title>Laura Quann</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="portfolio/portfolio.html">Portfolio</a>
-        <a href="coursereview/coursereview.html">Course Reviews</a>
-        <a href="readinglist/readinglist.html">Reading List</a>
-        <a href="collaborate/collaborate.html">Collaborate</a>
-        <a href="contact/contact.html">Contact</a>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Laura Quann</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+                aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item disabled" href="#">Home</a></li>
+                            <li><a class="dropdown-item" href="portfolio/portfolio.html">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="coursereview/coursereview.html">Course Review</a></li>
+                            <li><a class="dropdown-item" href="readinglist/readinglist.html">Reading List</a></li>
+                            <li><a class="dropdown-item" href="collaborate/collaborate.html">Collaborate</a></li>
+                            <li><a class="dropdown-item" href="contact/contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <br />
-    <h1>Laura Quann</h1>
-    <h2>Web Development and Design</h2>
-    <img src="images/headshot.jpg" id="headshot" alt="professional headshot">
+    <h1>Web Development & Design</h1>
+    <img src="headshot-min.jpg" id="headshot" alt="professional headshot">
     <h2>About Me</h2>
     <p>After 13 years of healthcare experience, I have made the move web development and design. I am proud to have worked as a Registered Nurse specializing in hospice, emergency, and case management.</p>
     
@@ -37,5 +62,6 @@
     chance for you to follow along in my journey to a career in tech. I would love to chat about my journey and/or
     collaborate on projects. Let’s connect!</p>
 <p>This <a href="https://github.com/ljquann/Portfolio-site" target="_blank">open-source</a> site was coded by Laura Quann</p>
+</div>
 </body>
 </html>

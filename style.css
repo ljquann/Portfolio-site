@@ -1,18 +1,26 @@
-body {
-  margin: 0px 10px;
-}
 h1 {
-  margin-top: 50px;
+  display: block;
+  margin: 15% 5% 5% 5%;
+  font-size: 2em;
 }
-nav {
-  padding: 20px;
-  position: fixed;
-  background: white;
-  width: 100%;
+h2 {
+  padding: 2%;
+}
+p {
+  padding: 2%;
+}
+.container {
+  margin: 0;
+  padding: 0;
 }
 #headshot {
   display: block;
   margin: 0 auto;
-  width: 400px;
-  height: 300px;
+  padding: 2%;
+  width: 75%;
+  height: 50%;
+}
+#navbar {
+  position: fixed;
+  width: 100%;
 }
