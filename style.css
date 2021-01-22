@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(25, 70, 68, 1);
+  background-color: rgba(25, 70, 68, 0.9);
   font-family: "Source Sans Pro", sans-serif;
 }
 h1 {
@@ -25,17 +25,17 @@ ul {
   margin: 0;
 }
 .coded-by {
-  padding: 10% 2%;
+  padding: 7% 2%;
 }
 .container {
   margin: 0;
   padding: 0;
 }
-#toggler {
-  background-color: rgba(237, 166, 59, 0.8);
+.dropdown-menu {
+  background-color: rgba(224, 147, 114, 0.6);
 }
 #headshot {
-  box-shadow: 0.5em 0.5em 0.5em black;
+  box-shadow: 1em 1em 1em rgba(25, 70, 68, 1);
   display: block;
   margin: 0 auto;
   width: 75%;
@@ -44,4 +44,10 @@ ul {
 #navbar {
   position: fixed;
   width: 100%;
+}
+#navbar-brand {
+  color: rgba(237, 166, 59, 0.8);
+}
+#toggler {
+  background-color: rgba(237, 166, 59, 0.8);
 }
