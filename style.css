@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: #abd1c6;
+}
 body {
   background-color: rgba(25, 70, 68, 0.9);
   font-family: "Source Sans Pro", sans-serif;
@@ -50,4 +54,9 @@ ul {
 }
 #toggler {
   background-color: rgba(237, 166, 59, 0.8);
+}
+a:hover {
+  color: #fffffe;
+  text-decoration: underline;
+  cursor: pointer;
 }
