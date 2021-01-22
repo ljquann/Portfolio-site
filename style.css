@@ -1,11 +1,12 @@
 body {
   background-color: rgba(25, 70, 68, 1);
+  font-family: "Source Sans Pro", sans-serif;
 }
 h1 {
   color: #fffffe;
   display: block;
   margin: 15% 5% 5% 2%;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 h2 {
   color: #fffffe;
@@ -16,7 +17,15 @@ p {
   padding: 2%;
 }
 ul {
-  color: #e16162;
+  color: rgba(224, 147, 114, 0.9);
+  margin: 0;
+}
+.after-list {
+  padding: 0 2% 2% 2%;
+  margin: 0;
+}
+.coded-by {
+  padding: 10% 2%;
 }
 .container {
   margin: 0;
@@ -26,7 +35,7 @@ ul {
   background-color: rgba(237, 166, 59, 0.8);
 }
 #headshot {
-  box-shadow: 0.5em 0.5em 0.5em rgba(25, 70, 68, 1);
+  box-shadow: 0.5em 0.5em 0.5em black;
   display: block;
   margin: 0 auto;
   width: 75%;
