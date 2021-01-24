@@ -17,11 +17,10 @@ h1 {
 }
 h2 {
   color: #fffffe;
-  margin: 1% 5% 2% 5%;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 p {
-  color: #abd1c6;
+  color: #fff3ec;
   padding: 2%;
 }
 ul {
@@ -43,8 +42,8 @@ ul {
   background-color: #ffc0ad;
   color: #271c19;
 }
-.first-page {
-  margin: 250px 0;
+.intro {
+  padding: 25% 5% 5% 5%;
 }
 #header {
   display: block;
@@ -55,9 +54,9 @@ ul {
 }
 #headshot {
   display: block;
-  margin: 1% 2% 1% 7%;
-  width: 20%;
-  height: 20%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 #name {
   font-size: 2.1em;
