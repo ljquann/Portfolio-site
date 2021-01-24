@@ -43,16 +43,15 @@ ul {
   background-color: #ffc0ad;
   color: #271c19;
 }
+.first-page {
+  margin: 250px 0;
+}
 #header {
-  background-image: url("header.png");
-  background-attachment: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-y: 10%;
-  background-position-x: 100%;
+  display: block;
+  padding: 2em 0em;
   width: 100vw !important;
-  height: 40vh;
-  margin: 0%;
+  height: 20vh;
+  margin: 0% auto;
 }
 #headshot {
   display: block;
@@ -72,12 +71,18 @@ ul {
   z-index: 1;
 }
 #title {
-  padding: 12% 0% 5% 5%;
   position: relative;
+  top: -6em;
+  left: 2em;
 }
 #subtitle {
   font-size: 1.4em;
   color: #fffffe;
+}
+#sunset {
+  width: 100%;
+  height: 25vh;
+  z-index: -1;
 }
 #toggle {
   width: 5%;
@@ -87,4 +92,7 @@ a:hover {
   color: #fffffe;
   text-decoration: underline;
   cursor: pointer;
+}
+.nav-link:hover {
+  text-decoration: none;
 }
