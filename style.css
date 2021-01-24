@@ -52,10 +52,8 @@ ul {
   background-repeat: no-repeat;
   background-position-y: 10%;
   background-position-x: 100%;
-  position: relative;
   width: 100vw !important;
-  height: 30vh;
-  padding: 12% 5%;
+  height: 35vh;
   margin: 0%;
 }
 #headshot {
@@ -75,8 +73,11 @@ ul {
   background-color: #55423d;
   z-index: 1;
 }
+#title {
+  padding: 12% 0% 5% 5%;
+}
 #subtitle {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #fffffe;
 }
 #toggle {
