@@ -3,7 +3,11 @@ a {
   color: #abd1c6;
 }
 button {
-  background-color: transparent;
+  background-color: #ffc0ad;
+  color: #271c19;
+  border: 1px solid #271c19;
+  border-radius: 25%;
+  padding: 0.3em;
 }
 body {
   background-color: #55423d;
@@ -21,7 +25,7 @@ h2 {
 }
 p {
   color: #fff3ec;
-  padding: 2%;
+  padding: 0 2%;
 }
 ul {
   color: rgba(224, 147, 114, 1);
@@ -31,6 +35,9 @@ ul {
   padding: 0 2% 2% 2%;
   margin: 0;
 }
+.buttons {
+  padding: 0em 0em 2em 5em;
+}
 .coded-by {
   padding: 7% 2%;
 }
@@ -39,12 +46,12 @@ ul {
   padding: 0;
 }
 .dropdown-menu {
-  background-color: #ffc0ad;
+  background-color: rgba(224, 147, 114, 1);
   color: #271c19;
 }
 .intro {
-  margin: 5% 0% 5% 5%;
-  padding: 5% 0% 0% 5%;
+  margin: 5% 0% 0% 2%;
+  padding: 10% 0% 0% 0%;
 }
 #header {
   display: block;
@@ -98,6 +105,11 @@ a:hover {
   color: #fffffe;
   text-decoration: underline;
   cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(238, 116, 88, 0.7);
+  transition: all 200ms ease-in-out;
 }
 .nav-link:hover {
   text-decoration: none;
