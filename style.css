@@ -6,8 +6,8 @@ button {
   background-color: transparent;
 }
 body {
-  background-color: rgba(25, 70, 68, 1);
-  font-family: "Source Sans Pro", sans-serif;
+  background-color: #55423d;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   color: #fffffe;
@@ -40,20 +40,22 @@ ul {
   padding: 0;
 }
 .dropdown-menu {
-  background-color: rgba(224, 147, 114, 1);
+  background-color: #ffc0ad;
 }
-.header {
-  background-image: url("header2.jpg");
+.dropdown-item {
+  color: #271c19;
+}
+#header {
+  background-image: url("header.png");
   background-attachment: fixed;
-  background-size: 100% 100%;
-  width: 100vw;
-  height: 35vh;
-  padding: 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+  position: relative;
+  width: 100vw !important;
+  height: 30vh;
+  padding: 12% 5%;
   margin: 0%;
-}
-.navbar-nav {
-  right: 0 !important;
-  left: auto !important;
 }
 #headshot {
   display: block;
@@ -62,22 +64,19 @@ ul {
   height: 20%;
 }
 #name {
-  font-size: 2em;
+  font-size: 2.5em;
   color: #fffffe;
 }
 #navbar {
   position: fixed;
+  top: 0%;
   width: 100%;
-  background-color: #004643;
+  background-color: #55423d;
+  z-index: 1;
 }
 #subtitle {
   font-size: 1.2em;
   color: #fffffe;
-}
-#title {
-  position: relative;
-  top: 50%;
-  left: 2%;
 }
 #toggle {
   width: 5%;
