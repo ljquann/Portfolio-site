@@ -41,8 +41,6 @@ ul {
 }
 .dropdown-menu {
   background-color: #ffc0ad;
-}
-.dropdown-item {
   color: #271c19;
 }
 #header {
@@ -53,7 +51,7 @@ ul {
   background-position-y: 10%;
   background-position-x: 100%;
   width: 100vw !important;
-  height: 35vh;
+  height: 40vh;
   margin: 0%;
 }
 #headshot {
@@ -63,7 +61,7 @@ ul {
   height: 20%;
 }
 #name {
-  font-size: 2.1em;
+  font-size: 1.8em;
   color: #fffffe;
 }
 #navbar {
@@ -75,6 +73,7 @@ ul {
 }
 #title {
   padding: 12% 0% 5% 5%;
+  position: relative;
 }
 #subtitle {
   font-size: 1.4em;
@@ -88,4 +87,24 @@ a:hover {
   color: #fffffe;
   text-decoration: underline;
   cursor: pointer;
+}
+@media screen and (max-width 320px) {
+  #name {
+    font-size: 1em;
+  }
+  #subtitle {
+    font-size: 0.8em;
+    color: #fffffe;
+  }
+  #header {
+    background-image: url("header.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    background-position-x: 100%;
+    width: 100vw !important;
+    height: 40vh;
+    margin: 0%;
+  }
 }
