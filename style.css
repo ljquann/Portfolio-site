@@ -2,26 +2,30 @@ a {
   text-decoration: none;
   color: #abd1c6;
 }
+button {
+  background-color: transparent;
+}
 body {
-  background-color: rgba(25, 70, 68, 0.9);
+  background-color: rgba(25, 70, 68, 1);
   font-family: "Source Sans Pro", sans-serif;
 }
 h1 {
   color: #fffffe;
   display: block;
-  margin: 15% 5% 5% 2%;
-  font-size: 1.8em;
+  margin: 15% 5% 1% 5%;
+  font-size: 2em;
 }
 h2 {
   color: #fffffe;
-  padding: 5% 2% 2% 2%;
+  margin: 1% 5% 2% 5%;
+  font-size: 1.2em;
 }
 p {
   color: #abd1c6;
   padding: 2%;
 }
 ul {
-  color: rgba(224, 147, 114, 0.9);
+  color: rgba(224, 147, 114, 1);
   margin: 0;
 }
 .after-list {
@@ -36,24 +40,48 @@ ul {
   padding: 0;
 }
 .dropdown-menu {
-  background-color: rgba(224, 147, 114, 0.6);
+  background-color: rgba(224, 147, 114, 1);
+}
+.header {
+  background-image: url("header2.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 35vh;
+  padding: 0%;
+  margin: 0%;
+}
+.navbar-nav {
+  right: 0 !important;
+  left: auto !important;
 }
 #headshot {
-  box-shadow: 1em 1em 1em rgba(25, 70, 68, 1);
   display: block;
-  margin: 0 auto;
-  width: 75%;
-  height: 50%;
+  margin: 1% 2% 1% 7%;
+  width: 20%;
+  height: 20%;
+}
+#name {
+  font-size: 2em;
+  color: #fffffe;
 }
 #navbar {
   position: fixed;
   width: 100%;
+  background-color: #004643;
 }
-#navbar-brand {
-  color: rgba(237, 166, 59, 0.8);
+#subtitle {
+  font-size: 1.2em;
+  color: #fffffe;
 }
-#toggler {
-  background-color: rgba(237, 166, 59, 0.8);
+#title {
+  position: relative;
+  top: 50%;
+  left: 2%;
+}
+#toggle {
+  width: 5%;
+  height: 5%;
 }
 a:hover {
   color: #fffffe;

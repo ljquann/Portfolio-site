@@ -16,19 +16,12 @@
 </head>
 <body>
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+    <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" id="navbar-brand" href="#">Laura Quann</a>
-            <button class="navbar-toggler" id="toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
-                aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Menu
+                            data-bs-toggle="dropdown" aria-expanded="false"> <img src="toggleicon.png" id="toggle"/>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li><a class="dropdown-item disabled" href="#">Home</a></li>
@@ -40,15 +33,17 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
         </div>
     </nav>
-    <br />
-    <h1>Web Development & Design</h1>
-    <img src="headshot-min.jpg" id="headshot" alt="professional headshot">
+    <div class="row header">
+    <div id="title">
+       <span id="name">Laura Quann</span>
+        <br />
+       <span id="subtitle">Web Design & Development</span>
+    </div>
+    </div>
     <h2>About Me</h2>
-    <p>After 13 years of healthcare experience, I have made the move web development and design. I have worked as a Registered Nurse specializing in hospice, emergency, and case management.</p>
-    
+    <p>After 13 years of healthcare experience, I have made the move to web development and design.</p>
    <p> While my career in nursing did not provide experience in web development, it did provide daily practice in:
    <ul>
        <li>Prioritization</li>
@@ -58,6 +53,7 @@
        <li>User Empathy</li>
    </ul> 
     </p>
+    <img src="headshot.jpeg" id="headshot" alt="professional headshot">
     <p class="after-list">I was able to master these skills while keeping the individual needs of my patients central.</p>
     
     <p>The logic problems and creative aspects of web development and design attracted me to a new career in tech. I have made
