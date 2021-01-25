@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="../style.css" />
@@ -12,44 +12,40 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/962c29cddb.js" crossorigin="anonymous"></script>
+    <title>Laura Quann</title>
 </head>
 <body>
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" id="navbar-brand" href="../index.html">Laura Quann</a>
-            <button class="navbar-toggler" id="toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                            data-bs-toggle="dropdown" aria-expanded="false"><img src="../toggleicon.png" id="toggle" />
                             Menu
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink" id="dropdown-menu">
                             <li><a class="dropdown-item" href="../index.html">Home</a></li>
-                            <li><a class="dropdown-item disabled" href="../portfolio/portfolio.html">Portfolio</a></li>
-                            <li><a class="dropdown-item" href="../coursereview/coursereview.html">Course Review</a></li>
-                            <li><a class="dropdown-item" href="../readinglist/readinglist.html">Reading List</a></li>
-                            <li><a class="dropdown-item" href="../collaborate/collaborate.html">Collaborate</a>
-                            </li>
+                            <li><a class="dropdown-item disabled" href="portfolio/portfolio.html">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="../collaborate/collaborate.html">Collaborate</a></li>
                             <li><a class="dropdown-item" href="../contact/contact.html">Contact</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <br />
-    <h1> 
-        Welcome
-    </h1>
+        </nav>
+        <header>
+            <img src="../header.png" alt="sunset background" id="sunset">
+            <div id="title">
+                <span id="name">LAURA QUANN</span>
+                <br />
+                <span id="subtitle">Web Design & Development</span>
+            </div>
+        </header>
+        <div class="content">
     <h2>Heres What I've Been Working On</h2>
-    <p><a href="https://mystifying-yalow-bc670f.netlify.app/" target="_blank">Vanilla JavaScript Weather App</a>
+    <p><a href="https://mystifying-yalow-bc670f.netlify.app/" target="_blank">Vanilla JavaScript Weather App</a> (check it out!)
             <br />
             This app features:
             <ul>
@@ -66,7 +62,18 @@
                     I implemented geolocation and unit conversion features
                 </li>
             </ul>
+            <br />
+            <p> This was my fist ever coding project completed through the SheCodes Plus online course. I enjoyed styling this app and making the simple animation. The use of the API taught me a lot about how the internet works to fetch information for websites</p>
     </p>
     </div>
+    <footer>
+        <p class="coded-by">This <a href="https://github.com/ljquann/Portfolio-site" target="_blank">open-source</a> site
+            was coded by Laura Quann.
+            <br />
+            <a href="mailto:connect@lauraquann.com">connect@lauraquann.com</a>
+        </p>
+    </footer>
+    </div>
+</div>
 </body>
 </html>

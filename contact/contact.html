@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="../style.css" />
@@ -12,48 +12,58 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/962c29cddb.js" crossorigin="anonymous"></script>
+    <title>Laura Quann</title>
 </head>
+
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" id="navbar-brand" href="../index.html">Laura Quann</a>
-                <button class="navbar-toggler" id="toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Menu
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../index.html">Home</a></li>
-                                <li><a class="dropdown-item" href="../portfolio/portfolio.html">Portfolio</a></li>
-                                <li><a class="dropdown-item" href="../coursereview/coursereview.html">Course Review</a></li>
-                                <li><a class="dropdown-item" href="../readinglist/readinglist.html">Reading List</a></li>
-                                <li><a class="dropdown-item" href="../collaborate/collaborate.html">Collaborate</a></li>
-                                <li><a class="dropdown-item disabled" href="contact/contact.html">Contact</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><img src="../toggleicon.png" id="toggle" />
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink" id="dropdown-menu">
+                            <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="portfolio/portfolio.html">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="../collaborate/collaborate.html">Collaborate</a></li>
+                            <li><a class="dropdown-item disabled" href="../contact/contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <br />
-    <h1>Let's Connect</h1>
+        <header>
+            <img src="../header.png" alt="sunset background" id="sunset">
+            <div id="title">
+                <span id="name">LAURA QUANN</span>
+                <br />
+                <span id="subtitle">Web Design & Development</span>
+            </div>
+        </header>
+        <div class="content">
+    <h2>Let's Connect</h2>
     <p>If there is one thing that I have learned from my short time in the tech industry, it's that none of us can do this
         alone. I would love to chat about our coding journeys, education paths and resources.</p>
     <p>I am on the hunt for side projects, mentorship and community with other developers and designers. </p>
-    <p> I would love to hear from you! you can email me at connect@lauraquann.com or find me on:</p>
+    <p> I would love to hear from you! you can email me at <a href="mailto:connect@lauraquann.com">connect@lauraquann.com</a> or find me on:</p>
     <ul>
         <li><a href="https://www.linkedin.com/in/laura-quann-928223201/">Linkedin</a></li>
         <li><a href="https://twitter.com/laura_quann">Twitter</a>: @laura_quann</li>
         <li><a href="https://github.com/ljquann">GitHub</a>: ljquann</li>
     </ul>
     </div>
+    <footer>
+        <p class="coded-by">This <a href="https://github.com/ljquann/Portfolio-site" target="_blank">open-source</a> site
+            was coded by Laura Quann.
+            <br />
+            <a href="mailto:connect@lauraquann.com">connect@lauraquann.com</a>
+        </p>
+    </footer>
+    </div>
+</div>
 </body>
 </html>
