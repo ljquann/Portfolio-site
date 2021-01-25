@@ -18,14 +18,14 @@ body {
 h2 {
   color: #fff3ec;
   font-size: 1.7em;
-  margin: 15% 2% 5% 2%;
+  margin: 5% 2% 5% 2%;
   padding-top: 5%;
 }
 header {
   display: block;
   padding: 3em 0em;
   width: 100vw !important;
-  height: 20vh;
+  height: 25vh;
   margin: 0% auto;
 }
 p {
@@ -136,8 +136,8 @@ button:hover {
   text-decoration: none;
 }
   @media screen and (max-width: 480px){
-    .big-screen{
-      display:none;
+    h2{
+        margin: 15% 2% 5% 2%;
     }
   }
   @media screen  and (min-width:481px){
@@ -145,30 +145,10 @@ button:hover {
   margin top:0%;
 }
 header{
-  padding:0;
   width: 100vw;
-}
-p{
-  max-width: 65%;
-}
-.big-screen{
-  background-color: rgba(224, 147, 114, 0.8);
-  color: #271c19;
-  display: block;
-  height: 200vh;
-  max-width: 130px;
-  padding-top: 14em;
-  padding-right: 2em;
-position: fixed;
-  top:0em;
-  right: 0em;
-z-index: -1;
 }
 .content{
   margin-top: 0%;
-}
-    .navbar{
-  display:none;
 }
 }
 
@@ -177,30 +157,10 @@ h2{
   margin top: 0%;
 }
 header{
-  padding:0;
   width: 100vw;
-}
-p{
-  max-width: 65%;
-}
-.big-screen{
-background-color: rgba(224, 147, 114, 0.8);
-color: #271c19;
-display: block;
-height: 200vh;
-max-width: 150px;
-padding-top: 14em;
-padding-right: 2em;
-position: fixed;
-  top:0em;
-  right: 0em;
-z-index: -1;
 }
 .content{
   margin-top: 0%;
-}
- .navbar{
-  display:none;
 }
 .second-half{
 position:relative;
@@ -208,9 +168,9 @@ bottom: 30em;
 }
 #headshot{
   position:relative;
-  bottom: 40em;
+  bottom: 35em;
   left: 50%;
-  width: 30vw;
+  width: 25vw;
   height: 60vh;
 }
   }
