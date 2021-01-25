@@ -48,6 +48,8 @@ li {
 }
 .contact-button {
   position: relative;
+  top: 2em;
+  right: 8em;
 }
 .container {
   margin: 0;
@@ -59,9 +61,6 @@ li {
 }
 .headshot {
   position: relative;
-  bottom: 17em;
-  left: 18em;
-  z-index: -1;
 }
 .intro {
   margin: 3% 0% 0% 10%;
@@ -72,9 +71,10 @@ li {
 .portfolio-button {
   position: relative;
   top: 10em;
+  right: 8em;
 }
 .skillset {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 #header {
   display: block;
@@ -87,8 +87,8 @@ li {
   box-shadow: 0.5em 0.5em 0.5em #352a26;
   display: block;
   margin: 0 0 0 1em;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 #name {
   font-size: 2.2em;
