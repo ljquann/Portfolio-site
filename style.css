@@ -135,45 +135,45 @@ button:hover {
 .nav-link:hover {
   text-decoration: none;
 }
-  @media screen and (max-width: 480px){
-    body{
-      overflow-x: hidden;
-    }
-    h2{
-        margin: 5% 2% 5% 2%;
-    }
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
   }
-  @media screen  and (min-width:481px){
-  h2{
-  margin top:0%;
+  h2 {
+    margin: 5% 2% 5% 2%;
+  }
 }
-header{
-  width: 100vw;
-}
-.content{
-  margin-top: 0%;
-}
+@media screen and (min-width: 481px) {
+  h2 {
+    margin-top: 0%;
+  }
+  header {
+    width: 100vw;
+  }
+  .content {
+    margin-top: 0%;
+  }
 }
 
-@media screen  and (min-width:850px){
-h2{
-  margin top: 0%;
-}
-header{
-  width: 100vw;
-}
-.content{
-  margin-top: 0%;
-}
-.second-half{
-position:relative;
-bottom: 30em;
-}
-#headshot{
-  position:relative;
-  bottom: 35em;
-  left: 50%;
-  width: 25vw;
-  height: 60vh;
-}
+@media screen and (min-width: 850px) {
+  h2 {
+    margin-top: 0%;
   }
+  header {
+    width: 100vw;
+  }
+  .content {
+    margin-top: 0%;
+  }
+  .second-half {
+    position: relative;
+    bottom: 30em;
+  }
+  #headshot {
+    position: relative;
+    bottom: 35em;
+    left: 50%;
+    width: 25vw;
+    height: 60vh;
+  }
+}
