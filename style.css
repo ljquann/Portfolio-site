@@ -25,6 +25,13 @@ h2 {
   font-size: 1.7em;
   margin: 15% 2% 5% 2%;
 }
+header {
+  display: block;
+  padding: 3em 0em;
+  width: 100vw !important;
+  height: 20vh;
+  margin: 0% auto;
+}
 p {
   color: #fff3ec;
   padding: 0 2%;
@@ -50,12 +57,8 @@ li {
 .contact-button {
   margin-left: 2em;
 }
-.container {
-  margin: 0;
-  padding: 0;
-}
 .content {
-  margin-top: 8%;
+  margin-top: 25%;
 }
 .dropdown-menu {
   background-color: rgba(224, 147, 114, 1);
@@ -75,13 +78,6 @@ li {
 }
 .skillset {
   font-size: 1.4em;
-}
-#header {
-  display: block;
-  padding: 3em 0em;
-  width: 100vw !important;
-  height: 20vh;
-  margin: 0% auto;
 }
 #headshot {
   box-shadow: 0.5em 0.5em 0.5em #352a26;
