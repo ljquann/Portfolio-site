@@ -20,8 +20,9 @@ h1 {
   font-size: 2em;
 }
 h2 {
-  color: #fffffe;
+  color: #fff3ec;
   font-size: 1.5em;
+  margin: 15% 2% 0% 2%;
 }
 p {
   color: #fff3ec;
@@ -30,6 +31,9 @@ p {
 ul {
   color: rgba(224, 147, 114, 1);
   margin: 0;
+}
+li {
+  list-style-type: none;
 }
 .after-list {
   padding: 0 2% 2% 2%;
@@ -49,9 +53,15 @@ ul {
   background-color: rgba(224, 147, 114, 1);
   color: #271c19;
 }
+.frontend {
+  font-size: 1em;
+}
 .intro {
-  margin: 5% 0% 0% 2%;
-  padding: 10% 0% 0% 0%;
+  margin: 10% 0% 0% 10%;
+  font-size: 1em;
+}
+.skillset {
+  font-size: 1.2em;
 }
 #header {
   display: block;
@@ -61,9 +71,10 @@ ul {
   margin: 0% auto;
 }
 #headshot {
+  box-shadow: 0.5em 0.5em 0.5em #352a26;
   display: block;
-  margin: 0 auto;
-  width: 100%;
+  margin: 0 0 0 1em;
+  width: 90%;
   height: 80%;
 }
 #name {
