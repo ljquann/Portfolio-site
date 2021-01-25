@@ -48,8 +48,6 @@ li {
 }
 .contact-button {
   position: relative;
-  top: 2em;
-  right: 1em;
 }
 .container {
   margin: 0;
@@ -59,16 +57,20 @@ li {
   background-color: rgba(224, 147, 114, 1);
   color: #271c19;
 }
+.headshot {
+  position: relative;
+  bottom: 17em;
+  left: 18em;
+}
 .intro {
-  margin: 10% 0% 0% 10%;
+  margin: 3% 0% 0% 10%;
   font-size: 0.9em;
   position: relative;
   right: 1em;
 }
 .portfolio-button {
   position: relative;
-  top: 2em;
-  right: 5em;
+  top: 10em;
 }
 .skillset {
   font-size: 1.3em;
@@ -85,7 +87,7 @@ li {
   display: block;
   margin: 0 0 0 1em;
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 #name {
   font-size: 2.2em;
