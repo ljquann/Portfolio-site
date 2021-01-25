@@ -61,6 +61,7 @@ li {
   position: relative;
   bottom: 17em;
   left: 18em;
+  z-index: -1;
 }
 .intro {
   margin: 3% 0% 0% 10%;
