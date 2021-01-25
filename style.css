@@ -41,15 +41,13 @@ li {
   margin: 0;
 }
 .buttons {
-  padding: 1em 1em 2em 5em;
+  margin: 2em;
 }
 .coded-by {
   padding: 7% 2%;
 }
 .contact-button {
-  position: relative;
-  top: 2em;
-  right: 8em;
+  margin-left: 2em;
 }
 .container {
   margin: 0;
@@ -64,17 +62,15 @@ li {
 }
 .intro {
   margin: 3% 0% 0% 10%;
-  font-size: 0.9em;
+  font-size: 1em;
   position: relative;
   right: 1em;
 }
 .portfolio-button {
   position: relative;
-  top: 10em;
-  right: 8em;
 }
 .skillset {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 #header {
   display: block;
