@@ -147,15 +147,6 @@ button:hover {
     margin-top: 10%;
     margin-left: 3em;
   }
-  .headshot {
-    position: relative;
-    bottom: 35em;
-    left: 30em;
-  }
-  .second-half {
-    position: relative;
-    bottom: 30em;
-  }
   #headshot {
     width: 30vw;
     height: 60vh;
