@@ -135,18 +135,6 @@ button:hover {
 .nav-link:hover {
   text-decoration: none;
 }
-@media screen and (min-width: 500px) {
-  h2 {
-    margin: 5% 2% 5% 2%;
-  }
-  .content {
-    margin-top: 10%;
-    margin-left: 3em;
-  }
-  #headshot {
-    width: 30vw;
-    height: 60vh;
-  }
   @media screen and (max-width: 480px){
     .big-screen{
       display:none;
@@ -154,7 +142,7 @@ button:hover {
   }
   @media screen  and (min-width:481px){
   h2{
-  margin top: 0%;
+  margin top:0%;
 }
 header{
   padding:0;
@@ -164,16 +152,17 @@ p{
   max-width: 65%;
 }
 .big-screen{
-display: block;
+  background-color: rgba(224, 147, 114, 0.8);
+  color: #271c19;
+  display: block;
+  height: 200vh;
+  max-width: 130px;
+  padding-top: 14em;
+  padding-right: 2em;
 position: fixed;
-top:0em;
-right: 0em;
-background-color: rgba(224, 147, 114, 1);
-padding-top: 10em;
-color: #271c19;
-height: 200vh;
+  top:0em;
+  right: 0em;
 z-index: -1;
-max-width: 150px;
 }
 .content{
   margin-top: 0%;
@@ -183,8 +172,8 @@ max-width: 150px;
 }
 }
 
-  @media screen  and (min-width:850px){
-  h2{
+@media screen  and (min-width:850px){
+h2{
   margin top: 0%;
 }
 header{
@@ -195,21 +184,22 @@ p{
   max-width: 65%;
 }
 .big-screen{
-display: block;
-position: fixed;
-top:0em;
-right: 0em;
 background-color: rgba(224, 147, 114, 0.8);
-padding-top: 10em;
 color: #271c19;
+display: block;
 height: 200vh;
-z-index: -1;
 max-width: 150px;
+padding-top: 14em;
+padding-right: 2em;
+position: fixed;
+  top:0em;
+  right: 0em;
+z-index: -1;
 }
 .content{
   margin-top: 0%;
 }
-    .navbar{
+ .navbar{
   display:none;
 }
 .second-half{
@@ -217,8 +207,8 @@ position:relative;
 bottom: 30em;
 }
 #headshot{
-   position:relative;
-  bottom: 34em;
+  position:relative;
+  bottom: 40em;
   left: 50%;
   width: 30vw;
   height: 60vh;
