@@ -12,7 +12,7 @@ button {
 body {
   background-color: #55423d;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 h1 {
   color: #fffffe;
@@ -22,7 +22,7 @@ h1 {
 }
 h2 {
   color: #fff3ec;
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin: 15% 2% 5% 2%;
 }
 p {
@@ -41,10 +41,11 @@ li {
   margin: 0;
 }
 .buttons {
-  margin: 2em;
+  margin: 2em 2em 2em 1em;
 }
 .coded-by {
   padding: 7% 2%;
+  text-align: center;
 }
 .contact-button {
   margin-left: 2em;
@@ -133,4 +134,16 @@ button:hover {
 }
 .nav-link:hover {
   text-decoration: none;
+}
+@media screen and (min-width: 500px) {
+  h2 {
+    margin: 5% 2% 5% 2%;
+  }
+  .content {
+    margin-left: 3em;
+  }
+  #header {
+    width: 35vw;
+    height: 35vh;
+  }
 }
