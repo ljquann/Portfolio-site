@@ -184,10 +184,11 @@ p a:hover {
   transition: all 200ms ease-in-out;
 }
 .dropdown-item:hover {
+  background-color: rgba(253, 253, 248, 0.9);
   border-radius: 15px;
 }
 .dropdown-menu {
-  background-color: #f1eeee;
+  background-color: rgba(248, 243, 241, 1);
 }
 .footer-contact {
   display: flex;
