@@ -346,7 +346,7 @@ p a:hover {
     width: 85%;
   }
   .card-head {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .headshot-blurb {
     flex-direction: column;
@@ -418,7 +418,7 @@ p a:hover {
     width: 90%;
   }
   .card-head {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   .portfolio-card {
     font-size: 1.4em;
@@ -462,7 +462,7 @@ p a:hover {
   .cards {
     margin-left: 0;
     padding-bottom: 1em;
-    font-size: 0.8em;
+    font-size: 1.2em;
   }
   .card-first {
     margin-bottom: 1em;
@@ -473,7 +473,7 @@ p a:hover {
     width: 100%;
   }
   .card-head {
-    font-size: 1em;
+    font-size: 2em;
   }
   .coded-by {
     font-size: 0.8em;
