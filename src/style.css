@@ -139,7 +139,7 @@ p a:hover {
   border-radius: 5px;
 }
 .connect-btn {
-  background-color: rgba(173, 108, 128, 0.6);
+  background-color: #ffc0ad;
   border: 1px solid rgba(18, 5, 22, 0.1);
   border-radius: 40px;
   box-shadow: 0.2em 0.2em 0.2em rgba(18, 5, 22, 0.5);
@@ -149,7 +149,7 @@ p a:hover {
   text-decoration: none;
 }
 .connect-btn:hover {
-  background-color: rgba(173, 108, 128, 0.3);
+  background-color: rgba(246, 192, 173, 0.3);
   color: rgb(18, 5, 22);
   cursor: pointer;
   transition: all 200ms ease-in-out;
@@ -167,7 +167,7 @@ p a:hover {
   padding: 0;
 }
 .dropbtn {
-  background-color: rgba(173, 108, 128, 0.6);
+  background-color: rgba(121, 94, 122, 0.8);
   border: 1px solid rgba(18, 5, 22, 0.1);
   border-radius: 10px;
   box-shadow: 0.2em 0.2em 0.2em rgba(18, 5, 22, 0.5);
@@ -246,7 +246,7 @@ p a:hover {
   width: 200px;
 }
 .icons a {
-  color: rgba(173, 108, 128, 0.6);
+  color: rgba(121, 94, 122, 0.8);
 }
 .icons a:hover {
   color: rgba(173, 108, 128, 0.3);
@@ -254,7 +254,7 @@ p a:hover {
   transition: all 200ms ease-in-out;
 }
 .portfolio-btn {
-  background-color: rgba(173, 108, 128, 0.6);
+  background-color: #ffc0ad;
   border: 1px solid rgba(18, 5, 22, 0.1);
   border-radius: 40px;
   box-shadow: 0.2em 0.2em 0.2em rgba(18, 5, 22, 0.5);
@@ -264,7 +264,7 @@ p a:hover {
   text-decoration: none;
 }
 .portfolio-btn:hover {
-  background-color: rgba(173, 108, 128, 0.3);
+  background-color: rgba(246, 192, 173, 0.3);
   color: rgb(18, 5, 22);
   cursor: pointer;
   transition: all 200ms ease-in-out;
