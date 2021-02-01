@@ -112,7 +112,7 @@ p a:hover {
 }
 .card-head {
   font-size: 1.6em;
-  padding: 0em 0em 10em 0.5em;
+  padding: 0em 0em 1em 0.5em;
   font-family: "Josefin Sans", sans-serif;
 }
 .card-second {
@@ -463,7 +463,7 @@ p a:hover {
   .cards {
     margin-left: 0;
     padding-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 0.8em;
   }
   .card-first {
     margin-bottom: 1em;
@@ -474,7 +474,8 @@ p a:hover {
     width: 100%;
   }
   .card-head {
-    font-size: 2em;
+    padding-top: 1em;
+    font-size: 1em;
   }
   .coded-by {
     font-size: 0.8em;
